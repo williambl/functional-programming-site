@@ -38,7 +38,8 @@
 		"public interface Applicative<F extends K1, Mu extends Applicative.Mu> extends Functor<F, Mu>",
 		"std::reduce(std::execution::seq, v.cbegin(), v.cend())",
 		"list.map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…)",
-		"collection.filter(…).map(…).flatMap(…).filter(…).map(…).filter(…).forEach(…)"
+		"collection.filter(…).map(…).flatMap(…).filter(…).map(…).filter(…).forEach(…)",
+		"forall void a n m. MonadEffect n => MonadAff m => MonadEffect m => Plus m => m a -> n (Tuple (m a) (m void))"
 	]
 
 	let elements = [];
