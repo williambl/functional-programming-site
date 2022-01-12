@@ -34,6 +34,7 @@
 		"public <A, B, C, D> FunctionType<App2<Grate.Mu<A2, B2>, A, B>, App2<Grate.Mu<A2, B2>, C, D>> dimap(final Function<C, A> g, final Function<B, D> h)",
 		"interface Mu extends Profunctor.Mu {}",
 		"default Function15<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, Function<T16, R>> curry15()",
+		"public interface Applicative<F extends K1, Mu extends Applicative.Mu> extends Functor<F, Mu>",
 		"std::reduce(std::execution::seq, v.cbegin(), v.cend())"
 	]
 
