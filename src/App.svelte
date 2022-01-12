@@ -1,7 +1,7 @@
 <script>
 	import { inview } from 'svelte-inview';
 
-	const possibleElements = ["λ", "λλ", ">>==", "A monad is a monoid in the category of endofunctors.", "map", "filter", "reduce", "flatMap", "flatmap", "Int -> Int -> Int -> Int -> Int"]
+	const possibleElements = ["λ", "λλ", ">>==", "A monad is a monoid in the category of endofunctors.", "map", "filter", "reduce", "flatmap", "Int -> Int -> Int -> Int -> Int"]
 
 	let elements = [];
 
