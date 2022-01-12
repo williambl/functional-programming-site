@@ -93,14 +93,6 @@
 		background-color: #55555577;
 	}
 
-	a {
-		color: #76c7ba;
-	}
-
-	a:hover {
-		color: #346986;
-	}
-
 	.code {
 		font-family: "Fira Code", "Courier New", monospace;
 		position: relative;
