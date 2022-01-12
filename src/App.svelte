@@ -63,6 +63,11 @@
 	<div use:inview on:enter={createElements}></div>
 </main>
 
+<footer>
+	(Functional programming is actually very cool. It's very satisfying to have a nice chain of maps, filters, and reduces; and lambdas are undeniably useful.
+	<a href="https://github.com/Mojang/DataFixerUpper">This</a> scares me though.)
+</footer>
+
 <style>
 	main {
 		text-align: center;
@@ -73,9 +78,25 @@
 	}
 
 	h1 {
-		color: #3ceec9;
+		color: #c42525;
 		text-transform: uppercase;
 		font-size: 4em;
+	}
+
+	footer {
+		position: sticky;
+		bottom: 0;
+		right: 0;
+		padding: 0.2em;
+		background-color: #55555577;
+	}
+
+	a {
+		color: #76c7ba;
+	}
+
+	a:hover {
+		color: #346986;
 	}
 
 	.code {
