@@ -3,6 +3,7 @@
 
 	const possibleElements = [
 		"λ",
+		"μ",
 		">>==",
 		"A monad is a monoid in the category of endofunctors.",
 		"map",
@@ -24,18 +25,20 @@
 		"functors",
 		"profunctors",
 		"profunctors",
-		"Int -> Int -> Int -> Int -> Int",
+		"Category Theory",
+		"category theory",
+		"Natural Transformations",
+		"Int -> Int -> Int -> Int -> Int -> Int -> Int -> Int -> Int",
 		"() -> a -> b -> (c, d, e) -> f -> a(b)(c)[d](e, f)",
-		"(defn foo [arg] arg)",
-		"map(list, lambda x: map(x, lambda y: y+1))",
 		"(+ 1 1)",
-		"str.chars().map(|c| entry.to_digit(10).expect(\"should be a digit\")).sum()",
 		"upgrades.flatMapIndexed { idx, entry -> entry.map { Pair(it.key.position.add(-2.0*idx, 0.0, 0.0), Pair(it.value, it.value.data)) } }",
 		"public <A, B, C, D> FunctionType<App2<Grate.Mu<A2, B2>, A, B>, App2<Grate.Mu<A2, B2>, C, D>> dimap(final Function<C, A> g, final Function<B, D> h)",
 		"interface Mu extends Profunctor.Mu {}",
 		"default Function15<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, Function<T16, R>> curry15()",
 		"public interface Applicative<F extends K1, Mu extends Applicative.Mu> extends Functor<F, Mu>",
-		"std::reduce(std::execution::seq, v.cbegin(), v.cend())"
+		"std::reduce(std::execution::seq, v.cbegin(), v.cend())",
+		"list.map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…)",
+		"collection.filter(…).map(…).flatMap(…).filter(…).map(…).filter(…).forEach(…)"
 	]
 
 	let elements = [];
