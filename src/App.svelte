@@ -39,7 +39,8 @@
 		"std::reduce(std::execution::seq, v.cbegin(), v.cend())",
 		"list.map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…).map(…)",
 		"collection.filter(…).map(…).flatMap(…).filter(…).map(…).filter(…).forEach(…)",
-		"forall void a n m. MonadEffect n => MonadAff m => MonadEffect m => Plus m => m a -> n (Tuple (m a) (m void))"
+		"forall void a n m. MonadEffect n => MonadAff m => MonadEffect m => Plus m => m a -> n (Tuple (m a) (m void))",
+		"The λ-cube sees all"
 	]
 
 	let elements = [];
